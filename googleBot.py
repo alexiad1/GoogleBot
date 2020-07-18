@@ -1,4 +1,4 @@
-import discord
+import discord, auth
 from googlesearch import search
 from discord.ext import commands
 
@@ -10,5 +10,5 @@ async def LetMeGoogleThat(ctx, query, results=1):
         await ctx.send(i)
 
 
-token = 'NzMzNjQzNDM3NzM1NDExNzgz.XxGKlg.tPYPYgXCR6QC6DFIxPREWELFmz0'
+token = auth.getAuth()
 client.run(token)
