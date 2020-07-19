@@ -1,0 +1,6 @@
+__pycache__
+.vscode
+auth.py
+gooTest.py
+Pipfile
+Pipfile.lock
